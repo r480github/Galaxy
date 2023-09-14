@@ -18,14 +18,17 @@ img{
   height: 166px;
 }
 .spam {
+  position: static;
   float: left;
   cursor: pointer;
   font-size: 75px;
   z-index: 10;
+  top: 0%;
 }
 .each {
   position: relative;
   padding: 1vh;
+  padding-top: 4vh;
   transition-duration: 0.3s;
   border-radius: 20px;
   -webkit-transform: scale(1.1);
@@ -41,6 +44,7 @@ img{
 
 }
 .layout{
+  position: relative;
   width: 100%;
   height: 100%;
   float: left;
